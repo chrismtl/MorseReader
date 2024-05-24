@@ -1,0 +1,22 @@
+
+AVRASM ver. 2.2.8  C:\Users\Christian SK M\Documents\Christian\ACADEMIC\EPFL\Documents\Aide\Gautier Romain\Projet\Projet\main.asm Thu May 25 22:00:09 2023
+
+[builtin](2): error: Cannot find include file: m128def.inc
+C:\Users\Christian SK M\Documents\Christian\ACADEMIC\EPFL\Documents\Aide\Gautier Romain\Projet\Projet\main.asm(0): '[builtin]' included form here
+C:\Users\Christian SK M\Documents\Christian\ACADEMIC\EPFL\Documents\Aide\Gautier Romain\Projet\Projet\main.asm(8): Including file 'C:\Users\Christian SK M\Documents\Christian\ACADEMIC\EPFL\Documents\Aide\Gautier Romain\Projet\Projet\macros.asm'
+C:\Users\Christian SK M\Documents\Christian\ACADEMIC\EPFL\Documents\Aide\Gautier Romain\Projet\Projet\main.asm(9): Including file 'C:\Users\Christian SK M\Documents\Christian\ACADEMIC\EPFL\Documents\Aide\Gautier Romain\Projet\Projet\definitions.asm'
+C:\Users\Christian SK M\Documents\Christian\ACADEMIC\EPFL\Documents\Aide\Gautier Romain\Projet\Projet\definitions.asm(61): warning: Use of undefined or forward referenced symbol 'PORTB' in .equ/.set
+C:\Users\Christian SK M\Documents\Christian\ACADEMIC\EPFL\Documents\Aide\Gautier Romain\Projet\Projet\main.asm(9): 'C:\Users\Christian SK M\Documents\Christian\ACADEMIC\EPFL\Documents\Aide\Gautier Romain\Projet\Projet\definitions.asm' included form here
+C:\Users\Christian SK M\Documents\Christian\ACADEMIC\EPFL\Documents\Aide\Gautier Romain\Projet\Projet\definitions.asm(62): warning: Use of undefined or forward referenced symbol 'PIND' in .equ/.set
+C:\Users\Christian SK M\Documents\Christian\ACADEMIC\EPFL\Documents\Aide\Gautier Romain\Projet\Projet\main.asm(9): 'C:\Users\Christian SK M\Documents\Christian\ACADEMIC\EPFL\Documents\Aide\Gautier Romain\Projet\Projet\definitions.asm' included form here
+C:\Users\Christian SK M\Documents\Christian\ACADEMIC\EPFL\Documents\Aide\Gautier Romain\Projet\Projet\main.asm(35): error: Use of undefined or forward referenced symbol 'INT0addr' in .org
+C:\Users\Christian SK M\Documents\Christian\ACADEMIC\EPFL\Documents\Aide\Gautier Romain\Projet\Projet\main.asm(38): error: Use of undefined or forward referenced symbol 'INT1addr' in .org
+C:\Users\Christian SK M\Documents\Christian\ACADEMIC\EPFL\Documents\Aide\Gautier Romain\Projet\Projet\main.asm(41): error: Use of undefined or forward referenced symbol 'OVF0addr' in .org
+C:\Users\Christian SK M\Documents\Christian\ACADEMIC\EPFL\Documents\Aide\Gautier Romain\Projet\Projet\main.asm(44): error: Use of undefined or forward referenced symbol 'ADCCaddr' in .org
+C:\Users\Christian SK M\Documents\Christian\ACADEMIC\EPFL\Documents\Aide\Gautier Romain\Projet\Projet\main.asm(134): Including file 'C:\Users\Christian SK M\Documents\Christian\ACADEMIC\EPFL\Documents\Aide\Gautier Romain\Projet\Projet\encoder.asm'
+C:\Users\Christian SK M\Documents\Christian\ACADEMIC\EPFL\Documents\Aide\Gautier Romain\Projet\Projet\encoder.asm(5): warning: Use of undefined or forward referenced symbol 'PORTB' in .equ/.set
+C:\Users\Christian SK M\Documents\Christian\ACADEMIC\EPFL\Documents\Aide\Gautier Romain\Projet\Projet\main.asm(134): 'C:\Users\Christian SK M\Documents\Christian\ACADEMIC\EPFL\Documents\Aide\Gautier Romain\Projet\Projet\encoder.asm' included form here
+C:\Users\Christian SK M\Documents\Christian\ACADEMIC\EPFL\Documents\Aide\Gautier Romain\Projet\Projet\encoder.asm(7): Including file 'C:\Users\Christian SK M\Documents\Christian\ACADEMIC\EPFL\Documents\Aide\Gautier Romain\Projet\Projet\controle.asm'
+C:\Users\Christian SK M\Documents\Christian\ACADEMIC\EPFL\Documents\Aide\Gautier Romain\Projet\Projet\main.asm(135): Including file 'C:\Users\Christian SK M\Documents\Christian\ACADEMIC\EPFL\Documents\Aide\Gautier Romain\Projet\Projet\sharp.asm'
+C:\Users\Christian SK M\Documents\Christian\ACADEMIC\EPFL\Documents\Aide\Gautier Romain\Projet\Projet\main.asm(177): Including file 'C:\Users\Christian SK M\Documents\Christian\ACADEMIC\EPFL\Documents\Aide\Gautier Romain\Projet\Projet\lcd.asm'
+C:\Users\Christian SK M\Documents\Christian\ACADEMIC\EPFL\Documents\Aide\Gautier Romain\Projet\Projet\main.asm(178): Including file 'C:\Users\Christian SK M\Documents\Christian\ACADEMIC\EPFL\Documents\Aide\Gautier Romain\Projet\Projet\printf.asm'
